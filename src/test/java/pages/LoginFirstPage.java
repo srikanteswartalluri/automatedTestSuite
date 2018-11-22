@@ -3,13 +3,10 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import java.util.List;
 
-import static java.lang.Thread.sleep;
 
 public class LoginFirstPage {
 
@@ -18,8 +15,6 @@ public class LoginFirstPage {
 
     //locators
     By nameButton = By.xpath("//*[@id=\"main-header\"]/div[1]/div/div[2]/button");
-
-    By signOut = By.xpath("*[@id=\"main-body\"]/ul[1]/li[4]");
 
     By drpDown = By.xpath("//*[@id=\"main-body\"]/ul[1]/li");
 

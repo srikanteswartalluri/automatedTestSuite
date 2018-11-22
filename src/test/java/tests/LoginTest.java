@@ -58,8 +58,8 @@ public class LoginTest extends TestBase{
         for(String w : wHandles){
             if(!w.equals(parentWindowHandle)){
                 //switch the control to new tab
-                String title = driver.switchTo().window(w).getTitle();
-                System.out.println(title);
+                driver.switchTo().window(w).getTitle();
+                String title = lPage.getTitle();
                 ////close the new tab
                 driver.close();
                 //switch the control to parent tab
@@ -78,7 +78,8 @@ public class LoginTest extends TestBase{
         for(String w : wHandles){
             if(!w.equals(parentWindowHandle)){
                 //switch the control to new tab
-                String title = driver.switchTo().window(w).getTitle();
+                driver.switchTo().window(w).getTitle();
+                String title = lPage.getTitle();
                 //close the new tab
                 driver.close();
                 //switch the control to parent tab
@@ -97,7 +98,8 @@ public class LoginTest extends TestBase{
         for(String w : wHandles){
             if(!w.equals(parentWindowHandle)){
                 //switch the control to new tab
-                String title = driver.switchTo().window(w).getTitle();
+                driver.switchTo().window(w).getTitle();
+                String title = lPage.getTitle();
                 //close the new tab
                 driver.close();
                 //switch the control to parent tab
