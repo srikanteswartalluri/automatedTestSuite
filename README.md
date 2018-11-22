@@ -1,6 +1,6 @@
 # automatedTestSuite
 This is an automated test suite to test my.bonify.de. 
-This test suite is built using testNg, Selenium WebDriver and its Page Object Model. Page Object classes are created for the following pages
+This test suite is built using testNg, Selenium WebDriver and its Page Object Model. Page Object classes are created for the following pages. java dependencies are managed through maven(please have a look at pom.xml)
 1. Home page - https://www.bonify.de/   (if login button is clicked , we move to Login Page)
 2. Login Page - https://my.bonify.de/login/
 3. LoginFirstPage - once the login is succesful you will land in this page
