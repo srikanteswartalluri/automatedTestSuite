@@ -18,13 +18,8 @@ public class HomePage {
     public HomePage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver,300);
-        //PageFactory.initElements(driver, this);
-
     }
 
-//    //locators
-//    @FindBy(xpath = "/html/body/div[1]/header/div[1]/div/div[3]/div[2]/a")
-//    WebElement login;
 
     By login = By.xpath("/html/body/div[1]/header/div[1]/div/div[3]/div[2]/a");
 
@@ -32,7 +27,6 @@ public class HomePage {
     public LoginPage clickLogin(){
         wait.until(ExpectedConditions.elementToBeClickable(login));
         driver.findElement(login).click();
-//        login.click();
         return new LoginPage(driver);
     }
 
