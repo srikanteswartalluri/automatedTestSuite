@@ -54,7 +54,6 @@ public class LoginTest extends TestBase{
     public void testImprint(){
         lPage.clickImprint();
         Set<String> wHandles = driver.getWindowHandles();
-        System.out.println(wHandles.size());
         for(String w : wHandles){
             if(!w.equals(parentWindowHandle)){
                 //switch the control to new tab
@@ -74,7 +73,6 @@ public class LoginTest extends TestBase{
     public void testConditions(){
         lPage.clickConditions();
         Set<String> wHandles = driver.getWindowHandles();
-        System.out.println(wHandles.size());
         for(String w : wHandles){
             if(!w.equals(parentWindowHandle)){
                 //switch the control to new tab
@@ -94,7 +92,6 @@ public class LoginTest extends TestBase{
     public void testDataProtection(){
         lPage.clickDataProtection();
         Set<String> wHandles = driver.getWindowHandles();
-        System.out.println(wHandles.size());
         for(String w : wHandles){
             if(!w.equals(parentWindowHandle)){
                 //switch the control to new tab
