@@ -26,5 +26,7 @@ etc.,
 TestNg tests are part of LoginTest class.
 
 How to run the test?
-Issue  the following command from the root directory of this project
-mvn test
+ Issue  the following command from the root directory of this project
+ 
+ 
+ mvn test
