@@ -24,3 +24,7 @@ are present in the Login Page Class. The actions that can be performed on the ab
 etc.,
 
 TestNg tests are part of LoginTest class.
+
+How to run the test?
+Issue  the following command from the root directory of this project
+mvn test
